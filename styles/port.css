@@ -1,8 +1,44 @@
+/* Common styles */
+body {
 
+    font-family: "Open Sans", sans-serif;
+}
+
+.common-color {
+    color: #FD6E0A;
+}
+
+.btn-common {
+    border-radius: 5px;
+    background: #FD6E0A;
+}
 
 
 /* Navbar related styles */
 
-nav{
+nav {
     display: flex;
+}
+
+
+.nav-tittle {
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
 }
