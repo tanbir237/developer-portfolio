@@ -127,6 +127,10 @@ main {
     margin: 0px auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* About section styles */
 
 .about {
@@ -141,6 +145,103 @@ main {
     justify-content: space-between;
 }
 
+/* What do i do and skills section */
+
+.skill-conteinar {
+    display: flex;
+    gap: 20px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-description {
+    color: #757575;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+}
+
 #what-i-do-des {
     padding: 30px 150px;
+}
+
+
+/* Resume section */
+
+.resume-conteinar {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-column-tittle {
+    color: #474747;
+
+    font-size: 30px;
+
+    font-weight: 700;
+     
+    margin-bottom: 10px;
+}
+
+.resume-institute {
+    color: #757575;
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+
+.resume-description{
+    color: #757575;
+
+    font-size: 16px;
+
+    font-weight: 400;
+    
+}
+
+
+.cv-button{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/*  Footer section  */
+
+footer{
+    display: flex;
+    gap: 80px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input[type="text"] , .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0 ;
+    width: 100%;
 }
